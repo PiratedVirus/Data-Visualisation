@@ -24,6 +24,7 @@
         
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+        <link href="http://iamceege.github.io/tooltipster/dist/css/tooltipster.bundle.min.css" rel="stylesheet" />
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,11 +34,14 @@
         <![endif]-->
     </head>
     <body>
+        <div>
+            
+        </div>
         
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="img/ibm_logo.png" height="50" width="150" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -145,6 +149,34 @@
         </section>
         <!--================End Slider Area =================-->
         
+
+        <!--================Map Area =================-->
+        <section class="world_map_area p_100">
+            <div class="container">
+                <div class="c_title">
+                    <img src="img/icon/title-icon.png" alt="">
+                    <h6>Discover the research</h6>
+                    <h2>IBM Map</h2>
+                </div>
+                <div class="world_map_inner">
+                    <img class="img-fluid" src="img/map_@.png" usemap="#Map" alt="">
+                    <map name="Map" id="Map">
+                        <area alt="" href="#Map" shape="poly" coords="196,210,216,211,218,180,196,178" class="tooltip"
+                            title="NewYork, USA" />
+                        <area alt="" href="#Map" shape="poly" coords="406,102,407,135,428,133,428,103" class="tooltip"
+                            title="Hursely Winchester, UK" />
+                        <area alt="" href="#Map" shape="poly" coords="497,216,499,251,526,251,524,220" class="tooltip"
+                            title="Abu Dhabi, UAE" />
+                        <area alt="" href="#Map" shape="poly" coords="561,228,561,257,587,259,587,229" class="tooltip"
+                            title="Bangalore, INDIA" />
+                    </map>
+
+                </div>
+            </div>
+        </section>
+        <!--================End Map Area =================-->
+
+
         <!--================Feature Area =================-->
         <section class="feature_area">
             <div class="container">
@@ -194,55 +226,38 @@
             <div class="left_3d">
                 <div class="shap_slider_inner owl-carousel">
                     <div class="item">
-                        <h4>“They are the best”</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
+                        <h4>Machine 1</h4>
+                        <p>C Block EGL Bangalore, Equipment 16.</p>
                         <div class="media">
-                            <img src="img/team/people/people-5.jpg" alt="">
                             <div class="media-body">
-                                <h5>Chriss Turner</h5>
-                                <h6>CEO Enterprise</h6>
+                                <a class="more_btn" href="machine_one.html">Read More</a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
-                        <h4>“They are the best”</h4>
+                        <h4>Machine 2</h4>
                         <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
                         <div class="media">
-                            <img src="img/team/people/people-5.jpg" alt="">
                             <div class="media-body">
-                                <h5>Chriss Turner</h5>
-                                <h6>CEO Enterprise</h6>
+                                <a class="more_btn" href="#">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <h4>“They are the best”</h4>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus.</p>
-                        <div class="media">
-                            <img src="img/team/people/people-5.jpg" alt="">
-                            <div class="media-body">
-                                <h5>Chriss Turner</h5>
-                                <h6>CEO Enterprise</h6>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
-            <div class="right_text">
-                <div class="right_text_inner">
-                    <div class="text_3d">
-                        <div class="l_title">
-                            <img src="img/icon/title-icon.png" alt="">
-                            <h6>Discover the features</h6>
-                            <h2>We don’t hide, we stand tall in front of chalenge</h2>
-                        </div>
-                        <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul.Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum. Nam convallis vel erat id dictum. Sed ut risus in orci convallis viverra a eget nisi. Aenean pellentesque elit vitae eros dignissim ultrices. </p>
-                    </div>
-                    <div class="shap_mobile">
-                        <img src="img/iphone4.png" alt="">
-                    </div>
+        <div class="col-lg-6">
+            <div class="touch_details">
+                <div class="l_title">
+                    <img src="img/icon/title-icon.png" alt="">
+                    <h6>Say hello to Machine Learning</h6>
+                    <h2>Air condition managment made even cooler...</h2>
                 </div>
+                <p>Given an enterprise that has buildings across the globe, how do you understand which of these buildings are costing more
+                to organisation that what is required on air conditioning?</p>
+                
             </div>
+        </div>
         </section>
         <!--================End The best slider Area =================-->
         
@@ -304,65 +319,11 @@
         </section>
         <!--================End Get in Touch Area =================-->
         
-        <!--================Map Area =================-->
-        <section class="world_map_area p_100">
-            <div class="container">
-                <div class="world_map_inner">
-                    <img class="img-fluid" src="img/world-map.png" alt="">
-                    <div class="bd-callout">
-                        <h3>Gibraltar Office</h3>
-                        <p>Casemates Square, no253 <br /> United kingdom</p>
-                        <h4><a href="#">+453678 9283 559</a> <a href="#">contact@template.com</a></h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Map Area =================-->
+        
         
         <!--================Footer Area =================-->
-        <footer class="footr_area">
-            <div class="footer_widget_area">
-                <div class="container">
-                    <div class="row footer_widget_inner">
-                        <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_about_widget">
-                                <img src="img/footer-logo.png" alt="">
-                                <p>Cras ex mauris, ornare eget pretium sit amet, dignissim et turpis. Nunc nec maximus dui, vel suscipit dolor. Donec elementum velit a orci facilisis rutrum.</p>
-                            </aside>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_insta_widget">
-                                <div class="f_title">
-                                    <h3>Instagram</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-7.jpg" alt=""></a></li>
-                                    <li><a href="#"><img src="img/instagram/ins-8.jpg" alt=""></a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-4 col-sm-6">
-                            <aside class="f_widget f_subs_widget">
-                                <div class="f_title">
-                                    <h3>Subscribe to newsletter</h3>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
-                                    </span>
-                                </div>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <footer style="margin-top: 100px;" class="footr_area">
+           
             <div class="footer_copyright">
                 <div class="container">
                     <div class="float-sm-left">
@@ -392,6 +353,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
         <script src="js/jquery-3.2.1.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="http://iamceege.github.io/tooltipster/dist/js/tooltipster.bundle.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
@@ -414,7 +376,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/smoothscroll.js"></script>
         
         <script src="js/theme.js"></script>
+
         <script>
+            $(document).ready(function () {
+                    $('.tooltip').tooltipster({
+
+                    });
+                });
              var ctx_2 = document.getElementById('myChart_2').getContext('2d');
                 var myRadarChart = new Chart(ctx_2, {
                     type: 'radar',
